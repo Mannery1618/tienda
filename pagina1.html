@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina1.css">
+    <title>Nuestra Tienda en Línea</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+</head>
+<body>
+    <header>
+        <img src="imagenes/Chiaki Sato.gif" alt="Logo de la Tienda">
+        <h1>Nuestra Tienda en Línea</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="pagina2.html">Tienda</a></li>
+            <li><a href="pagina3.html">Servicio</a></li>
+            <li><a href="pagina4.html">Sobre Nosotros</a></li>
+            <li><a href="pagina5.html">Crear Cuenta</a></li>
+        </ul>
+    </nav>
+        <section id="servicio">
+            <h2>Bienvenido a Nuestra Tienda en Línea</h2>
+            <div class="servicios">
+                <div class="servicio">
+                    <img src="abrigo/Men Letter & Cartoon Graphic Kangaroo Pocket Drawstring Hoodie.jpg" alt="Servicio de Atención al Cliente">
+                    <h3>abrigo</h3>
+                    <p>¿Estás buscando la prenda perfecta para mantenerte abrigado y a la moda durante la temporada de frío? ¡Has llegado al lugar adecuado! En nuestra tienda, te ofrecemos una amplia variedad de abrigos de alta calidad para satisfacer todas tus necesidades.</p>
+                </div>
+                <div class="servicio">
+                    <img src="Tenis/Men Colorblock Lace-up Front Skate Shoes.jpg" alt="Envío Rápido y Seguro">
+                    <h3>Tenis</h3>
+                    <p>¿Eres un apasionado del tenis? ¡Has llegado al lugar adecuado! En nuestra tienda, te ofrecemos una amplia variedad de tenis de alta calidad para satisfacer todas tus necesidades de todo tipos de tenis.</p>
+                </div>
+                <div class="servicio">
+                    <img src="pintere/descarga (1).jpg" alt="Calidad Garantizada">
+                    <h3>Calidad Garantizada</h3>
+                    <p>La calidad es nuestra prioridad. Todos nuestros productos pasan por rigurosos controles de calidad para asegurarnos de que cumplan con los estándares más altos. Si no estás satisfecho, estaremos encantados de ayudarte con devoluciones y cambios.</p>
+                </div>
+                <div class="servicio">
+                    <img src="pintere/Online Shopping and Retail Business Icons.jpg" alt="Variedad de Productos">
+                    <h3>Variedad de Productos</h3>
+                    <p>Ofrecemos una amplia gama de productos para satisfacer tus necesidades. Desde tecnología hasta moda y hogar, estamos seguros de que encontrarás lo que buscas en nuestra tienda en línea.</p>
+                </div>
+            </div>
+            <center>
+                 <div class="inicio-info">
+                    <h2>Bienvenido a Nuestra Tienda en Línea</h2>
+                    <p>Explora nuestra amplia selección de productos de alta calidad y encuentra lo que necesitas.</p>
+                    <p>Inicia sesión en tu cuenta para obtener acceso exclusivo y realizar compras de manera conveniente.</p>
+                    <a href="crear-cuenta.html">Crear una cuenta</a>
+                    <a href="crear-cuenta.html">Crear una cuenta</a>
+           
+                </div>
+            </center>
+        </div>
+    </section>
+    <ul class="wrapper">
+       <!-- Botón de Facebook -->
+        <li class="icon facebook">
+            <span class="tooltip">Facebook</span>
+            <span><i class="fab fa-facebook-f"></i></span>
+        </li>
+
+        <!-- Botón de Twitter -->
+        <li class="icon twitter">
+            <span class="tooltip">Twitter</span>
+            <span><i class="fab fa-twitter"></i></span>
+        </li>
+
+        <!-- Botón de Instagram -->
+        <a href="https://www.youtube.com/">
+        <li class="icon instagram">
+            <span class="tooltip">Instagram</span>
+            <span><i class="fab fa-instagram"></i></span>
+        </li> </a>
+        
+        <!-- Botón de Github -->
+        <li class="icon github">
+            <span class="tooltip">Github</span>
+            <span><i class="fab fa-github"></i></span>
+        </li>
+
+        <!-- Botón de Youtube -->
+        <li class="icon youtube">
+            <span class="tooltip">Youtube</span>
+            <span><i class="fab fa-youtube"></i></span>
+        </li>
+    </ul>
+    <script>
+        $(document).ready(function() {
+            $('.icon').hover(
+                function() {
+                    $(this).find('.tooltip').css('opacity', '1');
+                },
+                function() {
+                    $(this).find('.tooltip').css('opacity', '0');
+                }
+            );
+        });
+    </script>
+</body>
+</html>
+    <footer>
+        <p>&copy; 2023 Nuestra Tienda en Línea. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

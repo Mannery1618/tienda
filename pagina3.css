@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff8c00;
+}
+
+/* Estilos para los servicios */
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.servicio {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.servicio img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.servicio h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.servicio p {
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Estilos para el logotipo */
+header img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    color: #666;
+}
+header {
+    display: flex;
+    background-image: url(/imagenes/pexels-dan-hadley-6017481.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+header h1 {
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+}

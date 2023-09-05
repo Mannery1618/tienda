@@ -1,0 +1,244 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff8c00;
+}
+
+/* Estilos para los servicios */
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.servicio {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.servicio img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.servicio h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.servicio p {
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Estilos para el logotipo */
+header img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    color: #666;
+}
+header {
+    display: flex;
+    background-image: url(/imagenes/pexels-dan-hadley-6017481.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+header h1 {
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+}
+
+
+.inicio-info {
+    flex: 2;
+}
+
+.inicio-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.inicio-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.inicio-info a {
+    display: inline-block;
+    background-color: #ff8c00;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.inicio-info a:hover {
+    background-color: #ff6f00;
+}
+
+header {
+    display: flex;
+    background-image: url(/imagenes/pexels-dan-hadley-6017481.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+header h1 {
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* Estilos generales */
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Estilos para los íconos de redes sociales */
+.icon {
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.icon i {
+    font-size: 24px;
+}
+
+/* Estilos para los tooltips */
+.tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+/* Efectos de hover */
+.icon:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.icon:hover .tooltip {
+    opacity: 1;
+}
